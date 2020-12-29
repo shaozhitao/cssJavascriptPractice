@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CssPracticeComponent } from './components/css-practice/css-practice.component';
+import { CeePracticeComponent } from './components/cee-practice/cee-practice.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CssPracticeComponent
+    CeePracticeComponent
   ],
   imports: [
     BrowserModule,

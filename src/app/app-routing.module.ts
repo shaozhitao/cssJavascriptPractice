@@ -1,17 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CssPracticeComponent } from './components/css-practice/css-practice.component';
+import {CeePracticeComponent} from './components/cee-practice/cee-practice.component';
 
 const routes: Routes = [
-  // {
-    // path: "css",
-    // loadChildren: () => import('./module/css-practice.module').then(m => m.CssPracticeModule)
-  // },
   {
-    path: "css_test", component: CssPracticeComponent
+    path: 'css_test', component: CeePracticeComponent
   },
   {
-    path: "", component: CssPracticeComponent
+    path: '', component: CeePracticeComponent
   }
 ];
 
