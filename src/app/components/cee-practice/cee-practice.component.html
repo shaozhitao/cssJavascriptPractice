@@ -1,8 +1,22 @@
-<!-- TODO: CSS 三角形 -->
+<!-- TODO: 1、CSS 三角形 -->
 <div class="triangle"></div>
-<!--TODO: 按钮的边框效果-->
+<!--TODO: 2、按钮的边框效果-->
 <div class="button">hover me to change</div>
-<!--TODO: 按钮悬浮变色-->
+<!--TODO: 3、按钮悬浮变色-->
 <div id="button-two" class="button-two">
   <span>hover me to change</span>
 </div>
+<!-- TODO: 4、canvas -->
+<canvas id="my_canvas" class="my_canvas"></canvas>
+<!--TODO: 5、图片局部放大效果-->
+<div id="container">
+  <div class="leftView" (mouseover)="leftViewOverShow()" (mouseout)="leftViewOverHidden()"
+  (mousemove)="leftViewOverMove($event)">
+    <div id="mask" class="mask"></div>
+    <img class="small" src="../../../assets/assets/img/img.jpg">
+  </div>
+  <div class="rightView">
+    <img class="big" src="../../../assets/assets/img/img.jpg">
+  </div>
+</div>
+
